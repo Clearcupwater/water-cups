@@ -8,5 +8,15 @@
 
 import Foundation
 
-print("Hello, World!")
+
+var myTown = Town()
+
+print(myTown.population)
+print(myTown.numberOfStoplights)
+myTown.printDescription()
+
+let genericMonster = Monster()
+genericMonster.town = myTown
+genericMonster.terrorizeTown()
+
 
