@@ -11,6 +11,7 @@ import Foundation
 struct Town {
     var population = 5_422
     var numberOfStoplights = 4
+    let region = "South"
     
     func printDescription () {
         print("Population: \(population)")
